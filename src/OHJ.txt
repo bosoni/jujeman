@@ -1,0 +1,18 @@
+K‰‰nt‰minen:
+
+Peli k‰ytt‰‰ fscripti‰, laitoin mukaan 1.6_Fscript.jar (java 6)
+ja FScript.jar (java 5).
+Jos k‰yt‰t 1.6 versiota, nime‰ se FScript.jar:ksi.
+
+data/ hakemistossa on kuvat, animaatiot ja skriptit.
+src/ hakemistosta lˆyd‰t .java l‰hdekoodit.
+
+Netbeans 5.5 asetukset:
+luo uusi projekti (ei main classia).
+project properties: 
+  Sources -> Add folder -> src
+  Sources -> Add folder -> data
+  Libraries -> Add JAR/Folder ja valitse FScript.jar
+
+F6 ja pit‰is l‰hte‰ p‰‰lle. F11 niin netbeans luo jar paketin joka
+menee dist/ hakemistoon.
